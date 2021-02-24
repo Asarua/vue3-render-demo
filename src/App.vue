@@ -1,6 +1,7 @@
 <script lang="tsx">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import Demo from './components/Demo'
 
 export default defineComponent({
   name: 'App',
@@ -9,6 +10,7 @@ export default defineComponent({
       <div>
         <img alt='Vue logo' src={require('./assets/logo.png')} />
         <HelloWorld msg='Welcome to Your Vue.js + TypeScript App' />
+        <Demo />
       </div>
     )
   }
